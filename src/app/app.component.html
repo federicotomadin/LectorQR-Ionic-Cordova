@@ -7,5 +7,7 @@
 </div>
 
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <div [style.display]="showSplash ? 'none': 'flex'">
+    <ion-router-outlet></ion-router-outlet>
+  </div>
 </ion-app>
